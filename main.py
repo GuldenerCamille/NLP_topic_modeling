@@ -5,13 +5,10 @@ import re
 import os
 import shutil
 import heapq
-from utilitaires import create_tables, send_data_to_api
+from utilitaires import send_data_to_api
 
 # Page Accueil
 def main():
-
-    # Création de la table Azure
-    create_tables(table="nlp_topic")
 
     st.set_page_config(layout="wide")
 
