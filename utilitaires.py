@@ -1,11 +1,4 @@
-import gensim
-from gensim import corpora, models
-import re
-import os
-import shutil
-import mysql.connector
 import requests
-import heapq
 import streamlit as st
 
 
